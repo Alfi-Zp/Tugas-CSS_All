@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Tugas-CSS_29</title>
+  <link rel="stylesheet" type="text/css" href="css/semantic.min.css">
+
+</head>
+<style type="text/css">
+    body {
+      background-color: #DADADA;
+    }
+    body > .grid {
+      height: 100%;
+    }
+    .image {
+      margin-top: -100px;
+    }
+    .column {
+      max-width: 450px;
+    }
+  </style>
+
+<body>
+  <h2 class="ui center aligned icon header teal ">
+    <img class="ui small image" src="img/logo1.jpg">
+    Daftar Akun NIOMIC
+  </h2>
+ <div class="ui middle aligned center aligned grid">
+  <div class="column">
+   
+    <form class="ui middle form">
+      <div class="ui stacked segment">
+		<div class="field">
+          <div class="ui left icon input">
+            <i class="user icon"></i>
+            <input type="text" name="text" placeholder="Nama Depan">
+          </div>
+        </div>
+		<div class="field">
+          <div class="ui left icon input">
+            <i class="user icon"></i>
+            <input type="text" name="text" placeholder="Nama Belakang">
+          </div>
+        </div>       
+	   <div class="field">
+          <div class="ui left icon input">
+            <i class="user icon"></i>
+            <input type="text" name="text" placeholder="No. Tlp /HP">
+          </div>
+        </div>
+		
+		<div class="field">
+          <div class="ui left icon input">
+            <i class="user icon"></i>
+            <input type="text" name="email" placeholder="E-mail address">
+          </div>
+        </div>
+        <div class="field">
+          <div class="ui left icon input">
+            <i class="lock icon"></i>
+            <input type="password" name="password" placeholder="Password">
+          </div>
+        </div>
+        <div class="ui fluid large teal submit button">Login</div>
+      </div>
+
+      <div class="ui error message"></div>
+
+    </form>
+
+    <div class="ui message">
+      New to us? <a href="#">Sign Up</a>
+    </div>
+  </div>
+</div>
+    </div>
+  </div>
+
+  <script src="js/semantic.min.js"></script>
+</body>
+</html>
+<!-- <h2 class="ui header">
+<img src="file/niomic.png">
+<div class="content">
+Daftar Akun Niomic
+</div>
+</h2> -->
